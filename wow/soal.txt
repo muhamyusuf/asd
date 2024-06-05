@@ -1,0 +1,29 @@
+SOAL DOUBLE LINKED LIST
+1. Buat program untuk enkripsi dan dekripsi password yang
+memanfaatkan Linked List, dengan spesifikasi :
+➢ Panjang password minimal 6 digit.
+➢ Isi password terserah dari user dan password diinputkan terlebih
+dahulu sebelumnya (penambahan data di belakang).
+➢ Enkripsi dilakukan dengan memindahkan 3 node terakhir, menjadi
+node terdepan. Kemudian sisipkan 1 karakter baru (kunci) setelah
+node ketiga dari yang dipindahkan tersebut.
+
+➢ Ilustrasi output:
+
+←Q⇆W⇆E⇆R⇆T⇆Y→
+
+←R⇆T⇆Y⇆Q⇆W⇆E→
+
+←R⇆T⇆Y⇆@⇆Q⇆W⇆E→
+
+➢ Lakukan juga proses dekripsi-nya.
+➢ Berikan juga fitur untuk menampilkan password.
+Lakukan latihan 1 dengan DLLNC dengan head dan tail, lalu berikan
+spesifikasi tambahan :
+➢ Tambahkan 2 macam user : anonymous dan admin.
+➢ Pada bagian fitur menampilkan password, jika admin user yang
+ingin melihat password tampilkan password secara benar (dari
+depan ke belakang), namun jika anonymous user yang ingin
+melihat password tampilkan password secara terbalik (dari
+belakang ke depan – manfaatkan tail dalam pengaksesan
+semacam ini)./
